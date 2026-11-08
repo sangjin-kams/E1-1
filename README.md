@@ -181,7 +181,6 @@ FROM nginx:alpine
 LABEL org.opencontainers.image.title="my-custom-nginx"
 ENV APP_ENV=dev
 COPY site/ /usr/share/nginx/html/ 
-Docker 포트 매핑 실행 로그 예시
 
 css📋 복사
 
@@ -193,6 +192,8 @@ Hello
 $ docker run -d -p 8081:5000 --name my-web-8081 my-web:1.0
 $ curl <http://localhost:8081>
 Hello
+
+
 볼륨 영속성 예시
 
 css📋 복사
