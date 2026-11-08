@@ -51,11 +51,19 @@
 ## 5. 기술 문서 (명령 및 출력)
 
 ### 5.1 Docker 이미지 빌드 및 실행
-이미지를 빌드하고 컨테이너를 실행하는 과정입니다.
 
-```bash
-# 이미지 빌드
-docker build -t e1-1-app .
+## 🛠 수행한 작업
+1. **환경 구성**: `my-docker-test` 폴더 생성 및 PowerShell 실습
+2. **웹 페이지 제작**: `index.html` 작성 (Nginx 서버용)
+3. **Dockerfile 작성**: 
+   - 베이스 이미지: `nginx:latest`
+   - 파일 복사: `index.html`을 컨테이너 내 `/usr/share/nginx/html/`로 복사
+4. **도커 실행**:
+   - 이미지 빌드: `docker build -t my-web-site .`
+   - 컨테이너 실행: `docker run -d -p 8080:80 --name my-web-container my-web-site`
+5. **버전 관리**: Git을 초기화하고 GitHub(`E1-1`) 저장소에 푸시 완료
 
-# 컨테이너 실행 (포트 8080 연결 및 볼륨 설정)
-docker run -d -p 8080:80 -v $(pwd):/app --name my-container e1-1-app
+## 🚀 실행 결과
+- 브라우저에서 `localhost:8080` 접속 시 커스텀 HTML 페이지 확인 완료
+- <img width="942" height="259" alt="image" src="https://github.com/user-attachments/assets/14e7138c-0a08-45ba-a25d-e41a0eecdd4f" />
+
