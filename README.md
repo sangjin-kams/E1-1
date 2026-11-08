@@ -62,7 +62,16 @@
    - 이미지 빌드: `docker build -t my-web-site .`
    - 컨테이너 실행: `docker run -d -p 8080:80 --name my-web-container my-web-site`
 5. **버전 관리**: Git을 초기화하고 GitHub(`E1-1`) 저장소에 푸시 완료
+6. **Docker 볼륨 영속성**:
+   - 컨테이너 실행: docker run -d -p 8888:80 --name vol-test -v my-vol:/usr/share/nginx/html nginx
+   - 데이터 생성: 컨테이너 내부에 test.txt 파일 생성, docker exec vol-test sh -c "echo 'Hello, Volume!' > /usr/share/nginx/html/test.txt"
+   - 컨테이너 삭제 : docker rm -f vol-test
+   - 새 컨테이너 실행 : docker run -d -p 9999:80 --name vol-test-new -v my-vol:/usr/share/nginx/html nginx
 
 ## 🚀 실행 결과
 - 브라우저에서 `localhost:8080` 접속 시 커스텀 HTML 페이지 확인 완료
 - <img width="942" height="259" alt="image" src="https://github.com/user-attachments/assets/14e7138c-0a08-45ba-a25d-e41a0eecdd4f" />
+
+- 브라우저에서 `localhost:9999` 접속 시 커스텀 HTML 페이지 확인 완료
+- <img width="221" height="62" alt="image" src="https://github.com/user-attachments/assets/84fa3825-c80b-4616-9455-374eb641ef1b" />
+
