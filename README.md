@@ -66,4 +66,3 @@
 ## 🚀 실행 결과
 - 브라우저에서 `localhost:8080` 접속 시 커스텀 HTML 페이지 확인 완료
 - <img width="942" height="259" alt="image" src="https://github.com/user-attachments/assets/14e7138c-0a08-45ba-a25d-e41a0eecdd4f" />
-
