@@ -69,13 +69,35 @@
    - 새 컨테이너 실행 : docker run -d -p 9999:80 --name vol-test-new -v my-vol:/usr/share/nginx/html nginx
 
 ## 🚀 실행 결과
-* 터미널 권한
+- 터미널 명령 실행
+  1. 현재위치 확인
+   <img width="421" height="233" alt="스크린샷 2026-11-18 200437" src="https://github.com/user-attachments/assets/542a7f57-f367-4e35-8d03-cc36f5c6842b" />
 
+  2. 목록 확인 (숨김 파일 포함)
+   <img width="409" height="253" alt="image" src="https://github.com/user-attachments/assets/68e42a28-73b4-46a7-a35b-da9a9ebd9032" />
 
+  3. test 디렉토리 생성
+   <img width="330" height="139" alt="image" src="https://github.com/user-attachments/assets/5da2cb31-3b69-4352-9f42-dd5057b54803" />
 
+  4. 디렉토리 이동
+   <img width="238" height="56" alt="image" src="https://github.com/user-attachments/assets/943e7bf1-6498-4b6d-8d8f-ecca763ad97f" />
+
+  5. 파일 생성
+   <img width="400" height="130" alt="image" src="https://github.com/user-attachments/assets/8a05fbd1-ce03-4bcc-b252-1498c0ec6ac9" />
+
+  6. 파일 복사
+   <img width="427" height="167" alt="image" src="https://github.com/user-attachments/assets/f91a1998-66f9-4c8c-aa79-e33c659250bf" />
+
+  7. 파일 이동
+   <img width="388" height="300" alt="image" src="https://github.com/user-attachments/assets/9623fc8f-069d-42d8-b12a-3a35b6d7b876" />
   
+  8. 파일 이름변경
+   <img width="454" height="142" alt="image" src="https://github.com/user-attachments/assets/d4bd960e-38a2-45a9-af5f-f12841ac35b6" />
 
+  9. 파일 삭제
+   <img width="359" height="53" alt="image" src="https://github.com/user-attachments/assets/ccdf4ef8-2dae-45ff-aae1-8aaf1ff8998c" />
 
+      
 - 브라우저에서 `localhost:8080` 접속 시 커스텀 HTML 페이지 확인 완료
 - <img width="942" height="259" alt="image" src="https://github.com/user-attachments/assets/14e7138c-0a08-45ba-a25d-e41a0eecdd4f" />
 
