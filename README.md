@@ -97,6 +97,32 @@
   9. 파일 삭제
    <img width="359" height="53" alt="image" src="https://github.com/user-attachments/assets/ccdf4ef8-2dae-45ff-aae1-8aaf1ff8998c" />
 
+  10. 파일 내용 확인
+   <img width="339" height="26" alt="image" src="https://github.com/user-attachments/assets/8811fb2c-53a3-41d6-ba6d-f77aec988dbf" />
+
+
+- 권한 실습 및 증거 기록
+  1. 권한 실습용 디렉토리와 파일 생성
+   <img width="497" height="279" alt="image" src="https://github.com/user-attachments/assets/c5a99075-41f0-4f45-88be-af9139f0236c" />
+
+  2. 변경 전 권한 확인
+   파일 권한
+   <img width="386" height="82" alt="image" src="https://github.com/user-attachments/assets/28e74470-d460-4639-a3de-6cf85e742d5e" />
+   디렉토리 권한
+   <img width="344" height="81" alt="image" src="https://github.com/user-attachments/assets/2e11d630-93e7-40ae-b890-c4a80e2f65cc" />
+
+  3. 파일 권한 변경 후 확인
+   <img width="521" height="129" alt="image" src="https://github.com/user-attachments/assets/9992f3b2-36ef-45e5-b5e0-5610a5c96141" />
+ 
+  4. 디렉토리 권한 변경 후 확인
+   <img width="472" height="135" alt="image" src="https://github.com/user-attachments/assets/cbbe23b1-7e67-4841-9b74-944197d3d95f" />
+
+- Docker 설치 및 기본 점검
+  1. 도커 버전 
+   <img width="620" height="149" alt="image" src="https://github.com/user-attachments/assets/ae498d75-184b-479e-857c-56029da7e1ca" />
+  2. 도커 인포
+   <img width="624" height="718" alt="image" src="https://github.com/user-attachments/assets/8a9760f1-845e-44a8-8ee5-9d42ad207588" />
+
       
 - 브라우저에서 `localhost:8080` 접속 시 커스텀 HTML 페이지 확인 완료
 - <img width="942" height="259" alt="image" src="https://github.com/user-attachments/assets/14e7138c-0a08-45ba-a25d-e41a0eecdd4f" />
