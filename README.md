@@ -19,10 +19,10 @@
 ## 2. 실행 환경
 | 항목 | 상세 내용 |
 | :--- | :--- |
-| **OS** | [예: Ubuntu 22.04 LTS / Windows 11] |
-| **쉘/터미널** | [예: Bash / PowerShell / Zsh] |
-| **Docker 버전** | [예: Docker version 24.0.7] |
-| **Git 버전** | [예: git version 2.34.1] |
+| **OS** | [Windows 11] |
+| **쉘/터미널** | [PowerShell] |
+| **Docker 버전** | [Docker version 29.9.3] |
+| **Git 버전** | [git version 2.56.0] |
 
 ---
 
@@ -123,10 +123,10 @@
   2. 도커 인포
    <img width="624" height="718" alt="image" src="https://github.com/user-attachments/assets/8a9760f1-845e-44a8-8ee5-9d42ad207588" />
 
-      
-- 브라우저에서 `localhost:8080` 접속 시 커스텀 HTML 페이지 확인 완료
-- <img width="942" height="259" alt="image" src="https://github.com/user-attachments/assets/14e7138c-0a08-45ba-a25d-e41a0eecdd4f" />
+- 컨테이너 실행연습      
+  1. 브라우저에서 `localhost:8080` 접속 시 커스텀 HTML 페이지 확인 완료
+    <img width="942" height="259" alt="image" src="https://github.com/user-attachments/assets/14e7138c-0a08-45ba-a25d-e41a0eecdd4f" />
 
-- 브라우저에서 `localhost:9999` 접속 시 커스텀 HTML 페이지 확인 완료
-- <img width="221" height="62" alt="image" src="https://github.com/user-attachments/assets/84fa3825-c80b-4616-9455-374eb641ef1b" />
+  2. 브라우저에서 `localhost:9999` 접속 시 커스텀 HTML 페이지 확인 완료
+    <img width="221" height="62" alt="image" src="https://github.com/user-attachments/assets/84fa3825-c80b-4616-9455-374eb641ef1b" />
 
