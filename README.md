@@ -120,6 +120,7 @@
 - Docker 설치 및 기본 점검
   1. 도커 버전 
    <img width="620" height="149" alt="image" src="https://github.com/user-attachments/assets/ae498d75-184b-479e-857c-56029da7e1ca" />
+
   2. 도커 인포
    <img width="624" height="718" alt="image" src="https://github.com/user-attachments/assets/8a9760f1-845e-44a8-8ee5-9d42ad207588" />
 
