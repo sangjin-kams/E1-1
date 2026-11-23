@@ -131,3 +131,8 @@
   2. 브라우저에서 `localhost:9999` 접속 시 커스텀 HTML 페이지 확인 완료
     <img width="221" height="62" alt="image" src="https://github.com/user-attachments/assets/84fa3825-c80b-4616-9455-374eb641ef1b" />
 
+  3. 도커 영속성
+     1) 볼륨 생성
+    <img width="417" height="56" alt="image" src="https://github.com/user-attachments/assets/b46a0b98-205a-4be6-90d3-eb4f3c4351f4" />
+
+  5. 
