@@ -135,4 +135,6 @@
      1) 볼륨 생성
     <img width="417" height="56" alt="image" src="https://github.com/user-attachments/assets/b46a0b98-205a-4be6-90d3-eb4f3c4351f4" />
 
-  5. 
+ 
+- git과 github 연결      
+    <img width="456" height="107" alt="image" src="https://github.com/user-attachments/assets/cb9fe992-dbcd-4d39-bb7c-c194ca57cfe4" />
