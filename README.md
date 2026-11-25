@@ -124,17 +124,73 @@
   2. 도커 인포
    <img width="624" height="718" alt="image" src="https://github.com/user-attachments/assets/8a9760f1-845e-44a8-8ee5-9d42ad207588" />
 
-- 컨테이너 실행연습      
-  1. 브라우저에서 `localhost:8080` 접속 시 커스텀 HTML 페이지 확인 완료
-    <img width="942" height="259" alt="image" src="https://github.com/user-attachments/assets/14e7138c-0a08-45ba-a25d-e41a0eecdd4f" />
+  3. 도커 hello-world
+   <img width="740" height="631" alt="image" src="https://github.com/user-attachments/assets/590133f1-6a42-404d-b435-0a04e1f3b187" />
 
-  2. 브라우저에서 `localhost:9999` 접속 시 커스텀 HTML 페이지 확인 완료
+- 컨테이너 실행연습      
+  1. 도커 ubuntu 실행
+   <img width="782" height="187" alt="image" src="https://github.com/user-attachments/assets/6b01b848-4e4a-4f6f-9232-71cd1bfd5018" />
+
+  2. 도커 ubnutu 안에서 명령어 실행(ls, echo "Hello Docker Ubuntu", pwd)
+   <img width="937" height="467" alt="image" src="https://github.com/user-attachments/assets/61cb7bd9-03f1-4a38-90d7-4a1fff2fe076" />
+
+  3. 브라우저에서 `localhost:8080` 접속 시 커스텀 HTML 페이지 확인 완료
+    <img width="942" height="259" alt="image" src="https://github.com/user-attachments/assets/14e7138c-0a08-45ba-a25d-e41a0eecdd4f" />
+ 
+  4. Docker에서 attach는 컨테이너의 기존 메인 프로세스에 연결하는 방식이고, exec는 실행 중인 컨테이너 내부에 새로운 프로세스를 생성하는 방식
+
+  5. 브라우저에서 `localhost:9999` 접속 시 커스텀 HTML 페이지 확인 완료
     <img width="221" height="62" alt="image" src="https://github.com/user-attachments/assets/84fa3825-c80b-4616-9455-374eb641ef1b" />
 
-  3. 도커 영속성
-     1) 볼륨 생성
-    <img width="417" height="56" alt="image" src="https://github.com/user-attachments/assets/b46a0b98-205a-4be6-90d3-eb4f3c4351f4" />
+  6. 도커 영속성
+     1) 볼륨 생성 및 test.txt 파일 생성
+    <img width="917" height="227" alt="image" src="https://github.com/user-attachments/assets/d26c27e7-ffec-4536-aea6-fd528a2e1e1b" />
 
+     2) 기존 볼륨 삭제 후 신규 볼륨 생성하여 test.txt 파일 확인
+    <img width="1045" height="307" alt="image" src="https://github.com/user-attachments/assets/29b41f00-da2d-4bcc-a973-a3507f4f89a3" />
+
+  7. 도커 바인드 마운트
+     1) test.txt 파일에 "before update" 작성
+    <img width="965" height="192" alt="image" src="https://github.com/user-attachments/assets/626e9907-d3db-4475-9bca-4a17f4306df1" />
+
+     2) "After Update"로 test.txt 파일 내 내용 변경 후 도커에 반영
+    <img width="840" height="135" alt="image" src="https://github.com/user-attachments/assets/07c463a0-f981-4c33-8091-461df867d3b1" />
+
+     3) 볼륨과 바인드 마운트 차이 : 볼륨(Volume)은 Docker가 관리하는 저장 공간에 데이터를 보존하는 방식이고, 바인드 마운트(Bind Mount)는 로컬 PC의 파일이나 디렉터리를 컨테이너와 직접 연결하여 공유하는 방식
  
 - git과 github 연결      
     <img width="456" height="107" alt="image" src="https://github.com/user-attachments/assets/cb9fe992-dbcd-4d39-bb7c-c194ca57cfe4" />
+
+- Docker 운영 로그
+    <img width="1055" height="551" alt="image" src="https://github.com/user-attachments/assets/44fa7013-2e75-4ba1-8cf2-c9ba38a00af2" />
+
+- Git 설정
+    <img width="796" height="181" alt="image" src="https://github.com/user-attachments/assets/a7fd098e-994d-45d6-914b-0b4963f9e4a8" />
+
+- vs code 연동
+    1) 도커, git 버전 확인
+   <img width="1642" height="892" alt="image" src="https://github.com/user-attachments/assets/f57fe72e-5453-4eef-93d8-41fb1cf17f5f" />
+
+    2) 도커 container 설치
+   <img width="402" height="617" alt="image" src="https://github.com/user-attachments/assets/93c37a6e-2a9e-4641-b16b-e11066c5a343" />
+
+    3) git 연동
+    연동을 위한 명령어 작성
+   <img width="787" height="267" alt="image" src="https://github.com/user-attachments/assets/264ab24e-c30a-4f1d-8a97-ece7c4dba3ec" />
+
+
+    연동결과
+   <img width="1790" height="952" alt="image" src="https://github.com/user-attachments/assets/0e7577e8-890a-4807-b126-2c5f2f2797de" />
+
+
+- 트러블 슈팅 1 (Git은 설치되어 있지만 path 연결이 안되어 있어서 발생)
+  <img width="1092" height="192" alt="image" src="https://github.com/user-attachments/assets/723d8898-f9b7-4a8f-b9ea-62bca4d6353a" />
+  해결방법 : path 설정 후 터미널 재실행
+  검증방법 : git --vsersion  재실행
+  해결상태 : 정상 버전 출력 후 완료 처리
+
+- 트러블 슈팅 2(Docker에 같은 이름으로 컨테이너 생성 실시)
+  <img width="891" height="250" alt="image" src="https://github.com/user-attachments/assets/0b1ed8b3-b664-4b4d-9da7-067c70a1ae44" />
+  해결방법 : 새로운 컨테이너 이름 지정
+  검증방법 : docker ps 실행
+  해결상태 : 새로운 컨테이너 정상 실행 확인
